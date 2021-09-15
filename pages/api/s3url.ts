@@ -4,8 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 const region = "ap-southeast-2"
 const bucketName = "imageuploadapp"
-const accessKeyId = process.env.AWS_ACCESS_KEY_ID
-const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
+const accessKeyId = process.env.AWS_ACCESS_KEY_ID_IMAGEUPLOADERAPP
+const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY_IMAGEUPLOADERAPP
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
 
